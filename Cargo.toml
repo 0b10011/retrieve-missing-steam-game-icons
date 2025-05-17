@@ -1,0 +1,13 @@
+[package]
+name = "retrieve-missing-steam-game-icons"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+ctrlc = "3.4.7"
+env_logger = "0.11.8"
+log = "0.4.27"
+regex = "1.11.1"
+reqwest = "0.12.15"
+tokio = { version = "1.45.0", features = ["macros", "rt-multi-thread"] }
