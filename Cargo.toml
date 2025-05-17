@@ -1,6 +1,10 @@
 [package]
 name = "retrieve-missing-steam-game-icons"
 version = "0.1.0"
+authors = ["Brandon Frohs <brandon@19.codes>"]
+readme = "README.md"
+repository = "https://github.com/0b10011/retrieve-missing-steam-game-icons"
+license = "MIT"
 edition = "2024"
 
 [dependencies]
